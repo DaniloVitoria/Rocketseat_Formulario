@@ -44,23 +44,37 @@
         <div class="endereco">
           <h1>Endereço residencial</h1>
           <p class="skipline">CEP</p>
-          <p><input type="password" name="" id=""></p>
-          <p class="skipline">Rua  Número</p> 
-          <p><input type="text" name="" id=""> <input type="password"></p>
-          <p>Cidade Estado</p>
-          <p><input type="text"> <input type="text" maxlength="2"></p>
+          <p><input type="password" name="" id="" size="50" ></p>
+
+          <div class="gridinfo">
+            <!--<p class="skipline">Rua  Número</p>--> 
+            
+            <p class="gridp">Rua</p>
+            
+            <p class="gridp">Número</p>
+
+            
+            <input type="text" name="" id="" placeholder="1">
+            <input type="password" placeholder="2">
+            <!--<p>Cidade Estado</p>-->
+            <p class="gridp">Cidade</p>
+            <p class="gridp">Estado</p>
+            <input type="text" placeholder="3"> 
+            
+            <input type="text" maxlength="2" placeholder="4">
+          </div>
         </div>
 		<div class="informacoesdoresponsavel">
 			<h1>Informações do responsável</h1>
       <p class="skipline">Nome do responsável</p>
-			<p><input type="text"></p>
-			<p>Principal responsável legal e contato de emergência</p>
+			<p><input type="text" size="50"></p>
+			<p id="uniquep">Principal responsável legal e contato de emergência</p>
 
       <p class="skipline">telefone</p>
-			<p><input type="password" name="" id=""></p>
+			<p><input type="password" name="" id="" size="50"></p>
 
-      <p> Email</p>
-			<p><input type="email" name="" id="" title="Insira um email válido"></p>
+      <p class="skipline"> Email</p>
+			<p><input type="email" name="" id="" title="Insira um e-mail válido" size="50"></p>
 		</div>
 
 		<div class="opcoesdematricula">
@@ -69,15 +83,31 @@
 
 			<div class="opcoesdematricula__selecionar" >
 				<div class="selecionarcontent1">
-					<input type="radio"  name="turno" value="manha">
-					<img src="./assets/icons/sun-cloud-02.svg" alt="">
-					<p>Manhã</p>
+					<input type="radio"  name="turno" value="manha" class="selecionado" size="50">
+          <div class="content1">
+            <div>
+              
+                        <img src="./assets/icons/sun-cloud-02.svg" alt="">
+                        <p>Manhã</p>
+            </div>
+          </div>
 				</div>
 
 				<div class="selecionarcontent2">
-					<input type="radio"  name="turno" value="tarde">
-				<img src="./assets/icons/sun-02.svg" alt="">
-				<p>Tarde</p>
+					<input type="radio"  name="turno" value="tarde" size="50">
+
+          <div class="content2">
+            
+            <div class="content2">
+
+              <div>
+                <img src="./assets/icons/sun-02.svg" alt="">
+                <p>Tarde</p>
+              </div>
+
+            </div>
+              
+          </div>
 				</div>
 			</div>
 
@@ -85,25 +115,45 @@
 			<div class="Sports">
 				<h2>Em qual esporte você gostaria de inscrever seu filho?</h2>
 
-				<div class="Sports__content">
-				<div><input type="radio" name="Sports" value="football"><img src="./assets/icons/football.svg" alt=""> </div>
-				<div><input type="radio" name="Sports" value="basketball"><img src="./assets/icons/basketball-02.svg" alt="">	</div>
-				<div><input type="radio"name="Sports" value="swimming"><img src="./assets/icons/swimming.svg" alt=""> </div>
-				<div><input type="radio"name="Sports" value="yoga"><img src="./assets/icons/yoga-02.svg" alt=""> </div>
-				<div><input type="radio"name="Sports" value="volleyball"><img src="./assets/icons/volleyball.svg" alt=""> </div>
-				<div><input type="radio"name="Sports" value="boxing"><img src="./assets/icons/boxing-glove-01.svg" alt=""> </div>
+				<div class="Sports__content" >
+          
+				<div class="Sports__content__elements">
+          <input type="radio" name="Sports" value="football">
+          <div class="">
+            
+            <img src="./assets/icons/football.svg" alt="">
+            <p>Futebol</p>
+            
+          </div>
+        </div>
+				<div class="Sports__content__elements">
+          <input type="radio" name="Sports" value="basketball" class="">
+
+          <div>
+            <img src="./assets/icons/basketball-02.svg" alt="">
+            
+            <p>Basquete</p>
+            
+          </div>
+        </div>
+
+				<div class="Sports__content__elements"><input type="radio"name="Sports" value="swimming"><div><img src="./assets/icons/swimming.svg" alt=""><p>Natação</p></div> </div>
+				<div class="Sports__content__elements"><input type="radio"name="Sports" value="yoga"><div><img src="./assets/icons/yoga-02.svg" alt=""> <p>Yoga</p></div></div>
+				<div class="Sports__content__elements"><input type="radio"name="Sports" value="volleyball"><div><img src="./assets/icons/volleyball.svg" alt=""> <p>Volley</p></div></div>
+				<div class="Sports__content__elements"> <input type="radio"name="Sports" value="boxing"><div><img src="./assets/icons/boxing-glove-01.svg" alt=""> <p>Volley</p></div></div>
 				</div>	
 				
 				
 				
 			</div>
 
-			 <p><input type="checkbox" required> Declaro que li e concordo com os Termos e Condições e com a Política de Privacidade da escola Estrela do Amanhã. </p>
+			 <p class="lastp"><input type="checkbox" required> Declaro que li e concordo com os Termos e Condições e com a Política de Privacidade da escola Estrela do Amanhã. </p>
 		</div>
 
-		<button>Salvar respostas</button> <button>Fazer matrícula</button>
-		</form>
-		
+    <div class="lastbuttons">
+		  <p><button id="last1">Salvar respostas</button></p> <button id="last2">Fazer matrícula</button>
+		  </form>
+    </div>
       </main>
 
 		</div>

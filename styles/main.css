@@ -12,6 +12,22 @@ textarea:active:empty {
   margin-bottom: 48px;
 }
 
+/*Endereço residencial*/
+.gridinfo{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  
+  
+  column-gap: 10px;
+}
+
+.gridp{
+  margin: 10px 0 4px 0;
+  font-family: "Poppins";
+  font-size: 14px;
+  color: #57534E;
+}
 
 
 .opcoesdematricula__selecionar{
@@ -22,11 +38,33 @@ textarea:active:empty {
 }
 
 .selecionarcontent1{
+  
   border-radius: 8px;
   border: solid 1px #D6D3D1;
   padding: 16px;
   width: 50%;
   
+}
+
+.content1{
+  display: flex;
+  justify-content: center;
+}
+
+.content2{
+  display: flex;
+  justify-content: center;
+}
+
+
+.selecionarcontent1:hover{
+
+  border: solid 1px #F3541C;
+ 
+}
+
+.selecionarcontent2:hover{
+  border: solid 1px #F3541C;
 }
 
 .selecionarcontent2 {
@@ -41,6 +79,8 @@ textarea:active:empty {
   position: absolute;
   margin-top: 0;
 }
+
+
 
 .selecionarcontent2 img{
   
@@ -59,30 +99,99 @@ textarea:active:empty {
 
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 8fr;
+  justify-content: center;
 }
 
-.Sports__content div{
+.Sports__content .Sports__content__elements{
   border-radius: 8px;
   border: solid 1px #D6D3D1;
   padding: 16px;
   margin: 8px;
 }
 
+.Sports__content .Sports__content__elements:hover{
 
-.Sports__content input{
-  position: absolute;
-  margin-top: 0;
+  border: solid 1px #F3541C;
+
 }
+
+
+#uniquep{
+  color: #78716C;
+  margin-top: 5px;
+}
+
+.Sports__content__elements input{
+  position: absolute;
+  margin: -5px 0 0 -73px;
+}
+
+.gridteste{
+  border:   solid 10px white ;
+
+}
+
+.alldivgrid{
+  border:   solid 10px white ;
+}
+
 
 .skipline {
 
   margin: 16px 0 0 0;
-  
+  color:#57534E;
+  font-family: Poppins;
 
 
 }
 
 p{
   margin: 0;
+}
+
+.lastp {
+  margin: 48px 0;
+  display: flex;
+}
+
+.lastp input{
+  margin-bottom: 50px;
+  margin-right: 10px;
+}
+
+.last:nth-child(Termos e Condições){
+  background-color: orange;
+}
+
+.lastbuttons{
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+}
+
+#last1, #last2{
+  border: solid 1px #E43A12;
+}
+
+#last1 {
+  color: #E43A12;
+}
+#last1:hover {
+  mar: #FEE7D6;
+}
+
+#last2:hover {
+  background-color: #F3541C;
+  
+}
+
+#last2{
+  background-color: #E43A12;
+  color: white;
+}
+
+.Sports__content__elements{
+  display: flex;
+  justify-content: center;
 }
 /*Fim do main*/
