@@ -1,0 +1,63 @@
+body{
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+button {
+  border-radius: 8px;
+  width: 156px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.left {
+  width: 50%;
+}
+
+.container__content-left{
+  padding: 64px;
+}
+
+
+
+
+.right {
+  width: 50%;
+  right: 0;
+  position: fixed;
+  background-color: #FEE7D6;
+  
+  
+}
+
+
+header > p {
+
+  margin-bottom: 24px;
+}
+
+#arrow1 {
+  width: 14px;
+}
+
+header, main {
+  margin-bottom: 48px;
+}
+
+/*Endereço residencial*/
+
+
+/*Aside */
+
+aside {
+  
+  padding: 64px;
+  height: 100%;
+}
+/*Fim do Aside*/

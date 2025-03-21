@@ -1,0 +1,88 @@
+
+textarea:active:empty {
+  border: solid #F3541C;
+}
+
+.endereco {
+  margin: 48px 0 48px 0;
+}
+
+
+.informacoesdoresponsavel{
+  margin-bottom: 48px;
+}
+
+
+
+.opcoesdematricula__selecionar{
+  display: flex;
+  width: 100%;
+  column-gap: 40px;
+  
+}
+
+.selecionarcontent1{
+  border-radius: 8px;
+  border: solid 1px #D6D3D1;
+  padding: 16px;
+  width: 50%;
+  
+}
+
+.selecionarcontent2 {
+  width: 50%;
+  border-radius: 8px;
+  border: solid 1px #D6D3D1;
+  padding: 16px;
+  
+}
+
+.selecionarcontent2 input{
+  position: absolute;
+  margin-top: 0;
+}
+
+.selecionarcontent2 img{
+  
+  
+  
+}
+
+.selecionarcontent1 input{
+  position: absolute;
+  margin-top: 0;
+}
+
+
+.Sports__content{
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 8fr;
+}
+
+.Sports__content div{
+  border-radius: 8px;
+  border: solid 1px #D6D3D1;
+  padding: 16px;
+  margin: 8px;
+}
+
+
+.Sports__content input{
+  position: absolute;
+  margin-top: 0;
+}
+
+.skipline {
+
+  margin: 16px 0 0 0;
+  
+
+
+}
+
+p{
+  margin: 0;
+}
+/*Fim do main*/
