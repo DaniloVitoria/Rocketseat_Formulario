@@ -1,3 +1,25 @@
+#date1{
+  display: none;
+}
+
+.datechange::after {
+  content: "Clique aqui para selecionar arquivos " ; /* Texto dentro do botão */
+}
+
+h1 {
+  font-size: 24px;
+  color: #292524;
+  font-family: "Poppins";
+}
+
+h2 {
+  font-family: "Poppins";
+  font-size: 16px;
+  color: #292524;
+  margin: 0;
+}
+
+
 
 textarea:active:empty {
   border: solid #F3541C;
@@ -82,11 +104,7 @@ textarea:active:empty {
 
 
 
-.selecionarcontent2 img{
-  
-  
-  
-}
+
 
 .selecionarcontent1 input{
   position: absolute;
@@ -108,6 +126,51 @@ textarea:active:empty {
   padding: 16px;
   margin: 8px;
 }
+
+label {
+  
+  cursor: pointer;
+}
+
+ /* Estiliza a div quando o input está selecionado 
+ input[type="radio"]:checked + label {
+  border: 2px solid blue;
+  background-color: lightblue;
+}
+*/
+
+input[type="file"]{
+  display: none;
+}
+
+.custom-files {
+  width: 390px; /* Defina um tamanho */
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../assets/icons/cloud-upload.svg);
+  background-size: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  
+  cursor: pointer;
+  border: 2px dashed #777777; /* Opcional */
+  border-radius: 10px;
+  
+}
+
+.custom-files::after {
+  content: "Clique aqui para selecionar arquivos " ; /* Texto dentro do botão */
+  
+  font-size: 16px;
+  color: #777777;
+  font-weight: bold;
+  margin-top: 60px;
+  
+}
+
 
 .Sports__content .Sports__content__elements:hover{
 
