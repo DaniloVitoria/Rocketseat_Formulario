@@ -28,13 +28,21 @@
           <p><input type="text" name="name" size="50" required ></p>
           <p class="skipline">Data de nascimento</p>
           
-          <p><input type="date" name="" id="date1" placeholder="21/02/2005">
-          
-          <label for="date1" class="datechange"></label></p>
+          <p>
+
+            <input type="text"
+            placeholder="10/04/2000"
+            
+            pattern="\d{2}/\d{2}/\d{4}"
+            title="Insira uma data válida no formato dd/mm/aaaa"
+            required
+            size="50">
+            
+          </p>
           <p>
             <p class="skipline">Sexo</p>
-            <select name="" id="">
-              <option label="Feminino" value="feminino"></option>
+            <select name="" id="" style="width: 390px; border-radius: 8px; height: 25px;">
+              <option label="Feminino" value="feminino" ></option>
               <option label="Masculino" value="masculino"></option>
             </select>
           </p>

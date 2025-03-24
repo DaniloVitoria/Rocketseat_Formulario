@@ -16,13 +16,13 @@ h2 {
   font-family: "Poppins";
   font-size: 16px;
   color: #292524;
-  margin: 0;
+  
 }
 
 
 
 textarea:active:empty {
-  border: solid #F3541C;
+  border: solid 1px #F3541C;
 }
 
 .endereco {
@@ -118,6 +118,7 @@ textarea:active:empty {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 8fr;
   justify-content: center;
+  margin-left: -10px;
 }
 
 .Sports__content .Sports__content__elements{
@@ -132,19 +133,14 @@ label {
   cursor: pointer;
 }
 
- /* Estiliza a div quando o input está selecionado 
- input[type="radio"]:checked + label {
-  border: 2px solid blue;
-  background-color: lightblue;
-}
-*/
+
 
 input[type="file"]{
   display: none;
 }
 
 .custom-files {
-  width: 390px; /* Defina um tamanho */
+  width: 390px; 
   height: 150px;
   display: flex;
   align-items: center;
@@ -156,13 +152,20 @@ input[type="file"]{
 
   
   cursor: pointer;
-  border: 2px dashed #777777; /* Opcional */
+  border: 2px dashed #D6D3D1; 
   border-radius: 10px;
   
 }
 
+
+
+.custom-files:hover {
+  border: 2px dashed #F3541C; 
+  fill: #F3541C;
+}
+
 .custom-files::after {
-  content: "Clique aqui para selecionar arquivos " ; /* Texto dentro do botão */
+  content: "Clique aqui para selecionar arquivos " ; 
   
   font-size: 16px;
   color: #777777;
@@ -189,12 +192,8 @@ input[type="file"]{
   margin: -5px 0 0 -73px;
 }
 
-.gridteste{
-  border:   solid 10px white ;
 
-}
-
-.alldivgrid{
+.alldivgrid, .gridteste{
   border:   solid 10px white ;
 }
 
